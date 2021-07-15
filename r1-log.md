@@ -5,6 +5,7 @@ The log of my #100DaysOfCode challenge. Started on [July 15, Thursday, 2021].
 ## Log
 
 ### R1D1
-Started problem solving in leetcode. Solutions are provided in the leetcode folder! 
+Started problem solving in leetcode. Solutions are provided in the leetcode folder!
+Link - https://leetcode.com/problems/two-sum/submissions/ 
 
 ### R1D2
