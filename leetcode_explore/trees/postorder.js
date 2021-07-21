@@ -1,7 +1,9 @@
+//important for FAANG
 
-//Important for FAANG
-//reference for problem
-//https://www.youtube.com/watch?v=xLQKdq0Ffjg&t=606s
+//Referenece - https://www.youtube.com/watch?v=xLQKdq0Ffjg&t=606s
+
+/// Additional question implement using 2 stacks?
+
 var postorderTraversal = function(root) {
     //recurive
     // var res=[];
