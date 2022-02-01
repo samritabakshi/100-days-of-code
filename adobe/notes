@@ -1,0 +1,24 @@
+PQ- 
+        Enqueue:
+        Every time we insert a new element, we need to sort the elements. That’s O(n log n).
+
+        Complexity
+
+        Time: O(n log n), insertion into an array is constant but sorting takes n log n.
+        Space: O(n), the space used in memory will grow proportionally to the number of elements in the queue.
+
+        Dequeue:
+        Time: O(n), finding the top element.
+        Space: O(n), space is technically O(n-1). However, we just care about the “higher order” term, so O(n).
+
+---------------------------------------------
+
+1. Two Sum:
+        One pass hashmap
+                def twoSum(self, nums: List[int], target: int) -> List[int]:
+                        hashmap = {}
+                        for i in range(len(nums)):
+                        complement = target - nums[i]
+                        if complement in hashmap:
+                                return [i, hashmap[complement]]
+                        hashmap[nums[i]] = i
