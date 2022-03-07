@@ -1,4 +1,5 @@
-let countA = countB = 0;
+function x () {
+    let countA = countB = 0;
 	const dp = [];
 
 	for (let index = 0; index < secret.length; index++) {
@@ -19,4 +20,5 @@ let countA = countB = 0;
 		}
 	}
 
-	return `${countA}A${countB}B`;
+    return `${countA}A${countB}B`;
+}
